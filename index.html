@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navbar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-500">
+    <div class="bg-blue-500 flex flex-col justify-between h-20">
+        <nav class="flex flex-row justify-end text-white space-x-6 pr-6 text-1xl p-4">
+            <a href="#" aria-label="Home" class="w-20 h-10 flex flex-col justify-center text-center hover:bg-white hover:text-black transition duration-300 rounded-3xl">Home</a>
+            <a href="#" aria-label="About" class="w-20 h-10 flex flex-col justify-center text-center hover:bg-white hover:text-black transition duration-300 rounded-3xl">About</a>
+            <a href="#" aria-label="Contact Us" class="w-20 h-10 flex flex-col justify-center text-center hover:bg-white hover:text-black transition duration-300 rounded-3xl">Contact Us</a>
+        </nav>
+    </div>
+   
+    <!-- Hero Section -->
+    <div class="bg-gray-300 h-screen flex items-center justify-center text-center">
+        <div>
+            <h1 class="text-5xl font-bold mb-4">Welcome to My Website</h1>
+            <p class="text-lg mb-6">A place to find amazing content.</p>
+            <a href="#" class="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition duration-300">Get Started</a>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="bg-white py-10">
+        <h2 class="text-3xl font-bold text-center mb-6">Our Features</h2>
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="p-6 border rounded-lg shadow">
+                <h3 class="text-xl font-semibold mb-2">Feature 1</h3>
+                <p>Detail about feature 1 goes here. It's really amazing!</p>
+            </div>
+            <div class="p-6 border rounded-lg shadow">
+                <h3 class="text-xl font-semibold mb-2">Feature 2</h3>
+                <p>Detail about feature 2 goes here. It's really amazing!</p>
+            </div>
+            <div class="p-6 border rounded-lg shadow">
+                <h3 class="text-xl font-semibold mb-2">Feature 3</h3>
+                <p>Detail about feature 3 goes here. It's really amazing!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="bg-gray-100 py-10">
+        <h2 class="text-3xl font-bold text-center mb-6">What Our Users Say</h2>
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="p-6 border rounded-lg shadow">
+                <p class="italic">"This is the best service I've ever used!"</p>
+                <p class="font-semibold mt-4">- User 1</p>
+            </div>
+            <div class="p-6 border rounded-lg shadow">
+                <p class="italic">"Amazing experience, highly recommend!"</p>
+                <p class="font-semibold mt-4">- User 2</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-blue-500 py-4">
+        <div class="container mx-auto text-center text-white">
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+            <div class="mt-2">
+                <a href="#" class="text-white mx-2">Facebook</a>
+                <a href="#" class="text-white mx-2">Twitter</a>
+                <a href="#" class="text-white mx-2">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
